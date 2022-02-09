@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="/style.css">   
+</head>
+<body>
+    <div class="full-screen">
+        <div>
+          <h1>ASM Cams</h1>
+          <h2>Placement: ASMC</h2>
+          <a class="button-line" href="https://asm-example.github.io/cams" id="selector1">Secondary Offer test</a> 
+        </div>
+      </div>
+  <!-- Asm get parameter script -->
+      <script>
+        const {
+          searchParams: locationSearchParams
+        } = new URL(window.location.href);
+        const links = document.getElementsByTagName("a");
+        for (const link of links) {
+          const parsedLink = new URL(link.href);
+          for (const [key, value] of locationSearchParams) {
+            parsedLink.searchParams.set(key, value);
+          }
+          link.href = parsedLink.toString();
+        }
+        </script>      
+  <!-- End Asm get parameter script -->
+
+  <!-- Asm integration script -->
+<script>
+  window.asmdmp=window.asmdmp||function(){(asmdmp.q=asmdmp.q||[]).push(arguments)};asmdmp.l=+new Date;
+  asmdmp("add", "bo", { sink: "https://localsnaughty.com/tds?tdsId=s7765stu_r&tds_campaign=s7765stu&s1=test_s1&utm_source=test_utm_source&utm_campaign=test_utm_campaign&p10=bo_asm" });
+  asmdmp("add", "so", {
+    sink: "https://localsnaughty.com/tds?tdsId=s7765stu_r&tds_campaign=s7765stu&s1=test_s1&utm_source=test_utm_source&utm_campaign=test_utm_campaign&p10=so_asm",
+    selector: "selector1"
+  });
+  asmdmp("add", "wp", {
+    sink: "https://pt-xb.xyz/c_js/main.js?iHash=79f8831690aed3979547ecc685180443f0c4ee1e&tds_campaign=b0178stu&tds_ac_id=s7765stu&utm_source=ms_test_444&utm_campaign=ms_test_444&s1=ms_test_444&utm_term=ms_test_444&data2=ms_test_444"
+    }); 
+ </script>
+ <script async src="https://asmscript.xyz/asm.js"></script>
+ <!-- End Asm integration script -->
+  </body>
+  </html>
