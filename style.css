@@ -96,12 +96,12 @@ body {
     text-align: center;
     font-size: 1.4em;
     opacity: .8;
-    padding: 20px 40px;
+    padding: 40px 60px;
     text-decoration: none;
     transition: all .5s ease;
     margin: 0 auto;
     display: block;
-    width: 200px;
+    width: 340px;
   }
   
   .button-line:hover {
