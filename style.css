@@ -117,19 +117,3 @@ body {
   .button-line:hover {
     opacity: 1;
   }
-
-@media (max-width: 600px),(max-height:600px) {
-    html {
-        font-size:55%
-    }
-
-    .check-item {
-        margin-bottom: 1rem;
-        font-size: 2rem
-    }
-}
-
-@media (max-width: 400px) {
-    html {
-        font-size:50%
-    }
